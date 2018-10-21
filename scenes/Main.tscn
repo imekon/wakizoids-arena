@@ -25,6 +25,15 @@ position = Vector2( 2149.57, -449.978 )
 [node name="Rock3" parent="." instance=ExtResource( 3 )]
 position = Vector2( -2616.58, 1129.42 )
 
+[node name="Rock4" parent="." instance=ExtResource( 3 )]
+position = Vector2( -2988.66, -821.5 )
+
+[node name="Rock5" parent="." instance=ExtResource( 3 )]
+position = Vector2( -1339.43, -1605.89 )
+
+[node name="Rock6" parent="." instance=ExtResource( 3 )]
+position = Vector2( 782.446, -1977.97 )
+
 [node name="MiningShip" parent="." instance=ExtResource( 4 )]
 
 [node name="Camera2D" type="Camera2D" parent="MiningShip"]

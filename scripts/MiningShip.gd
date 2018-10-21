@@ -60,10 +60,11 @@ func _physics_process(delta):
 			process_shooting(delta, miner_position)
 	
 func get_rotation_angle(pos2, pos1):
-	var x = pos2.x - pos1.x
-	var y = pos2.y - pos1.y
-	var angle = atan2(y, x)
-	return angle
+#	var x = pos2.x - pos1.x
+#	var y = pos2.y - pos1.y
+#	var angle = atan2(y, x)
+#	return angle
+	return pos2.angle_to_point(pos1)
 	
 func set_registration(text):
 	registration.text = text
